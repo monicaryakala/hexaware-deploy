@@ -1,4 +1,4 @@
 FROM openjdk:21
-ADD my-app.jar my-app.jar
+ADD rest-app-day1-0.0.1-SNAPSHOT.jar rest-app-day1-0.0.1-SNAPSHOT.jar
 EXPOSE 8090
-ENTRYPOINT [“java”, “-jar”, “my-app.jar”]
+ENTRYPOINT [“java”, “-jar”, “rest-app-day1-0.0.1-SNAPSHOT.jar”]
